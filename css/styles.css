@@ -219,8 +219,9 @@ h2 {
   }
 /*_________________code for pricing page_______________________*/
 
-  
+  /* Code for pricing page */
   .pricing-table{
+    
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -231,11 +232,10 @@ h2 {
   }
   
   .pricing-card{
-
     flex: 1;
     max-width: 300px;
     background-color: #fff;
-    margin: 20px 10px;
+    margin: 50px 10px;
     text-align: center;
     cursor: pointer;
     overflow: hidden;
@@ -249,8 +249,9 @@ border-radius: 50px;
   }
   
   .pricing-card-header{
+    top : -90px;
     background-color:#FF9900;
-   display:inline-block;
+ display: inline-block;
     color: #fff;
     padding: 12px 30px;
     border-radius: 25px;
@@ -258,7 +259,6 @@ border-radius: 50px;
     height:60px;
     font-size: 16px;
     font-weight: 600;
-    transition: .4s linear;
     overflow: hidden;
     
   }
@@ -275,10 +275,10 @@ border-radius: 50px;
   .order-btn{
     display: inline-block;
     margin-bottom: 40px;
-    margin-top: 80px;
+    margin-top: 20px;
     border: 2px solid#FFE600;
     color:orange;
-    padding: 18px 40px;
+    padding: 10px 10px;
     border-radius: 8px;
     font-weight: 500;
     transition: .3s linear;
@@ -290,7 +290,18 @@ border-radius: 50px;
     .pricing-card{
       flex: 50%;
     }
+    
   }
   .priceblock{
-    margin-top: 20px;    
+    margin-top: 30px;    
   }
+.price-head{
+margin-top: 250px;
+margin-left: 72px;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 21.6px;
+  color:white;
+  position: absolute;
+  top: -5px;
+}
