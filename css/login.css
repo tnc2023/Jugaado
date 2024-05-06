@@ -23,19 +23,19 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 80%;
 }
 
 .heading {
     font-size: 24px;
-    margin-bottom: 20px;
-    padding-bottom: 12%;
+    padding-bottom: 4%;
 
 }
 
 .input-email{
     margin-bottom: 10px;
     border-radius: 25px;
-    /* width: 100%; */
+    width: 150%;
     line-height: 2.5;
     border: 2.5px solid #FF9900;
     background-image: url("../assets/images/login/email.png");
@@ -43,6 +43,9 @@ body {
     background-size: 20px 20px;
     background-repeat: no-repeat;
     padding-left: 50px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .input-wrapper{
@@ -52,7 +55,7 @@ body {
 .input-password {
     margin-bottom: 10px;
     border-radius: 25px;
-    /* width: 100%; */
+    width: 150%;
     line-height: 2.5;
     border: 2.5px solid #FF9900;
     background-image: url("../assets/images/login/password.png");
@@ -60,6 +63,9 @@ body {
     background-size: 20px 20px;
     background-repeat: no-repeat;
     padding-left: 50px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .eye-button {
@@ -72,38 +78,18 @@ body {
     background-size: contain;
     position: absolute;
     top: 45%;
-    right: 10px;
+    right: -65px;
     transform: translateY(-50%);
     cursor: pointer;
     border: 0px;
 }
-/* .eye-button {
-    margin-left: 200px;
-    border-radius: 25px;
-    height: 36px;
-    border: 0px;
-    background-image: url("../assets/images/login/eye.png");
-    background-size: 20px 20px;
-    background-repeat: no-repeat;
-    background-color: white;
-    padding-left: 30px;
-    padding-right: 10px;
-    margin-bottom: 10px;
-    background-position: center;
-    position: absolute;
-    right: -50px;
-    top: 40%; 
-    transform: translateY(-50%); 
-} */
 
-/* .eye-button:hover {
-    cursor: pointer;
-    color: azure;
-} */
 
 .forgot-password {
     margin-bottom: 10px;
-    text-decoration: underline;
+    padding-left: 23%;
+    font-size: 13px;
+    padding-bottom: 2%;
 }
 
 .login-button {
@@ -116,25 +102,31 @@ body {
     color: white;
     font-weight: 400px;
     border: 0px;
+    font-weight: 550;
 }
-
+.login-button:hover {
+    cursor: pointer;
+    background-color: #1A0D5D;
+}
 .or-text {
     margin-bottom: 10px;
+    padding-bottom: 2%;
+    font-size: 19px;
 }
 
 .google-button {
     margin-bottom: 10px;
-    background-size: 10% 80%;
+    background-size: auto 65%;
     background-repeat: no-repeat;
     border-radius: 25px;
     height: 40px;
     width: 275px;
-    border: 4px solid #FFE500;
-    font-size: 17px;
+    border: 3px solid #FFE500;
+    font-size: 15px;
     background-color: white;
     background-image: url("../assets/images/login/google.png");
     background-position: 25px center;
-    padding-left: 35px;
+    padding-left: 30px;
 }
 
 .google-button:hover {
