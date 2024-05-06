@@ -48,6 +48,10 @@ body {
     transform: translateX(-50%);
 }
 
+.input-email:focus , .input-password:focus{
+    outline: none;
+}
+
 .input-wrapper{
     position: relative;
     /* width: 250px; */
@@ -84,12 +88,17 @@ body {
     border: 0px;
 }
 
+.eye-button:hover {
+    outline: none;
+    cursor: pointer;
+}
 
 .forgot-password {
     margin-bottom: 10px;
     padding-left: 23%;
     font-size: 13px;
     padding-bottom: 2%;
+    color: #0037F9;
 }
 
 .login-button {
