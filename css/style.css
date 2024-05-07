@@ -565,29 +565,86 @@ border-radius: 50px;
 
   /*_________________code for chat page_______________________*/
   .input-with-arrow {
+    margin-left: 10px;
     position: relative;
-    display: inline-block;
-    width: calc(60% - 20px); /* Adjust margin from both ends */
-    align-items: center;
-    margin-left: 30px;
-    margin-top: 40px;
-
+    margin-bottom: 10px;
   }
-  .input-with-arrow input[type="text"] {
-    width: calc(100% - 20px); /* Adjust margin from both ends */
-    padding-right: 30px; /* Space for the arrow */
-    border-radius: 12px;
-    margin-right: 130px;
-    padding: 10px;
+  
+  .textarea-container {
+    position: relative;
   }
-  .input-with-arrow i {
+  
+  .textarea-container textarea {
+    width: 100%; /* Occupy full width of the container */
+    border: 2px solid orange;
+    border-radius: 11px;
+    overflow-y: scroll;
+    font-size: 15px;
+    padding-right: 40px; /* Space for the send button */
+  }
+  
+  .send-button {
     position: absolute;
-    top: 50%;
-    right: 25px; /* Adjust position of the arrow */
-    transform: translateY(-50%);
+    top: 70%; /* Position vertically centered */
+    right: 520px; /* Adjust horizontal position as needed */
+    transform: translateY(-90%); /* Center vertically */
+    width: 30px; /* Adjust width as needed */
+    height: 30px; /* Adjust height as needed */
   }
+/*..*/  
+  .input-with-arrow {
+    margin-left: 10px;
+    position: relative;
+    margin-bottom: 10px;
 
+}
 
-  
+.input-with-arrow textarea {
 
-  
+    width: 60%;
+    border: 2px solid orange;
+    border-radius:11px;
+    overflow-y: scroll;
+    font-size: 15px;
+    
+
+    
+}
+.input-with-arrow.active textarea {
+  border-color: yellow; /* Change border color to yellow when active */
+}
+
+.History{
+  float: right;
+  margin-right: 200px;
+}
+.separator {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 70%; /* Adjust this value to move the separator horizontally */
+  width: 1px; /* Width of the separator line */
+  background-color: black; /* Color of the separator line */
+  height: 700px;
+}
+.response,
+        .responsetwo,
+        .responsethree {
+            display: inline-block;
+            vertical-align: top; /* Align the divs from the top */
+            width: 17%; /* Adjust the width as needed */
+            margin: 0 10px; /* Add some spacing between the divs */
+            padding: 10px; /* Add padding for better readability */
+            border: 2px solid orange; /* Add a border for visibility */
+            border-radius: 10px;
+        }
+        .today {
+          text-align: left; /* Align text to the left */
+          margin-left: 900px;
+          position:absolute;
+      }
+      .send-button {
+        width: 30px; /* Adjust width as needed */
+        height: 30x; /* Adjust height as needed */
+   
+      }
