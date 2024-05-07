@@ -3,12 +3,13 @@
 
 <head>
     <title>Login Page</title>
-    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="../../css/login.css">
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap" rel="stylesheet">
+    <script src="../../js/login.js"></script>
 </head>
 
 <body>
-    <img src="assets/images/logo.png" alt="Logo" class="logo">
+    <img src="../../assets/images/logo.png" alt="Logo" class="logo">
     <div class="container">
         <h1 class="heading">LOGIN TO YOUR ACCOUNT</h1>
 
@@ -17,19 +18,22 @@
         </div>
         
         <div class="input-wrapper">
-            <input  class="input-password" type="password" placeholder="Enter password">
-            <button class="eye-button"></button>
+            
+            <input  class="input-password"
+            id="password-field" type="password" placeholder="Enter password">
+
+            <button id="eye-button" class="eye-button"></button>
         </div>
 
         <a href="#" class="forgot-password">Forgot password?</a>
 
         <button class="login-button">LOGIN</button>
 
-        <p class="or-text">or</p>
+        <p class="or-text">OR</p>
 
         <button class="google-button">LOG IN WITH GOOGLE</button>
 
-        <p class="register-link">New user? <a href="#">Register</a></p>
+        <p class="register-link">New user? <a href="#" style="color: #0037F9;">Register</a></p>
         
     </div>
 </body>
