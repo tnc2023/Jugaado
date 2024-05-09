@@ -23,7 +23,7 @@ body {
 .ai_image{
     width: 125%;
     height: 125%;
-    background-image: url(../assets/images/ai_image.png);
+    /* background-image: url(../assets/images/ai_image.png); */
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -34,7 +34,7 @@ body {
     line-height: 3;
     padding-left: 50px;
     border: 3px solid #FF9900;
-    background-image: url(../assets/images/search.png);
+    background-image: url("../assets/images/home-page/search.png");
     background-size: 30px;
     background-position: 10px;
     background-repeat: no-repeat;
