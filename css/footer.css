@@ -76,12 +76,11 @@ button[type="submit"] {
     font-weight: 549;
     font-size: medium;
     position: absolute;
-    right: 244px;
-    top: 18%;
     transform: translate();
     width: auto;
     height: 36px;
     font-size: 15px;
+    right: 100px;
     /* border: 1px solid #FF9900; */
     font-weight: 500;
 }
